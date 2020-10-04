@@ -32,7 +32,7 @@ cf: https://deno.land/manual#comparison-to-nodejs, https://qiita.com/so99ynoodle
 
 # やったこと
 
-https://deno.land/manual の 1.Introduction, 2.Getting Started(2.3 First steps まで) までフォローしてあとは、6. Examples をいくつか。
+https://deno.land/manual の 1.Introduction, 2.Getting Started(2.3 First steps まで) までフォローして、あとは 6. Examples をいくつか。
 そしてちょっとそれっぽいコードを。
 
 1. setup
