@@ -87,6 +87,7 @@ HTTP webserver running.  Access it at:  http://localhost:3000/
    https://github.com/kakinouchi/play-with-deno/blob/main/src/application/sample/sample.controller.ts
 
 7. テスト書いてみる。
+   https://github.com/kakinouchi/play-with-deno/blob/main/test/application/sample/sample.presenter.test.ts
 
 8. working with pm2
 
