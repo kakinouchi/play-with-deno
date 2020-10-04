@@ -75,13 +75,13 @@ Check file:///Users/shogokakinouchiv2/study/play-with-deno/webserver.ts
 HTTP webserver running.  Access it at:  http://localhost:3000/
 ```
 
-スクショ貼る。
+https://user-images.githubusercontent.com/32264080/95021235-bbce5280-06aa-11eb-8feb-2b41f83a6cac.png
 
 ここまでお遊び的なやつ。
 
 ---
 
-ここからちょっとプロダクションチックに。
+ここからちょっとそれっぽいやつ。
 
 6. エンドポイントはやしてみる。
    フレームワークは micro と使用感が似てそうなので https://github.com/sholladay/pogo を選択。
