@@ -83,8 +83,8 @@ https://user-images.githubusercontent.com/32264080/95021235-bbce5280-06aa-11eb-8
 
 ここからちょっとそれっぽいやつ。
 
-6. エンドポイントはやしてみる。
-   フレームワークは micro と使用感が似てそうなので https://github.com/sholladay/pogo を選択。
+6. エンドポイントはやしてみる。  
+   フレームワークは https://github.com/sholladay/pogo を選択。  
    https://github.com/kakinouchi/play-with-deno/blob/main/src/application/sample/sample.controller.ts
 
 7. テスト書いてみる。
