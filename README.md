@@ -33,6 +33,7 @@ cf: https://deno.land/manual#comparison-to-nodejs, https://qiita.com/so99ynoodle
 # やったこと
 
 https://deno.land/manual の 1.Introduction, 2.Getting Started(2.3 First steps まで) までフォローしてあとは、6. Examples をいくつか。
+そしてちょっとそれっぽいコードを。
 
 1. setup
 
@@ -84,6 +85,7 @@ HTTP webserver running.  Access it at:  http://localhost:3000/
 
 6. エンドポイントはやしてみる。
    フレームワークは micro と使用感が似てそうなので https://github.com/sholladay/pogo を選択。
+   https://github.com/kakinouchi/play-with-deno/blob/main/src/application/sample/sample.controller.ts
 
 7. テスト書いてみる。
 
@@ -101,7 +103,7 @@ HTTP webserver running.  Access it at:  http://localhost:3000/
   ```sh
   $ deno install -qAf --unstable https://deno.land/x/denon@2.4.0/denon.ts
   ```
-  以後、`deno` コマンドの代わりに `denon` コマンドを使う。(わかりにくい！)
+  以後、`deno` コマンドの代わりに `denon` コマンドを使う。(わかりにくい！しかもちょいバグってるっぽい！--unstable なだけある。)
 
 # 参考
 
