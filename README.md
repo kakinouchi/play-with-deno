@@ -19,7 +19,7 @@ deno さわってみるレポジトリ
 - Supports TypeScript by default.
 - Ships a single executable
 - Has built-in utilities(e.g. dependency inspector, code formatter)
-- 公式モジュールがいくつかある。
+- 標準ライブラリあるよ。(Go から輸入してるらしい) https://deno.land/std@0.73.0
 - Scripts can be bundled into a single JavaScript file.
 
 # Node.js と何が違う？
@@ -76,15 +76,35 @@ HTTP webserver running.  Access it at:  http://localhost:3000/
 
 スクショ貼る。
 
-# ちょいハマったとこ
+ここまでお遊び的なやつ。
+
+---
+
+ここからちょっとプロダクションチックに。
+
+6. エンドポイントはやしてみる。
+   フレームワークは micro と使用感が似てそうなので https://github.com/sholladay/pogo を選択。
+
+7. テスト書いてみる。
+
+8. working with pm2
+
+# ちょいハマったとこ/おまけ
 
 - webserver.ts コピってみたらエディタに怒られた。
   .vscode/settings.json を作って、`"deno.enable": true` と書けばよし(language server が有効になる)。
   https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno
 
--
+- コードを書いてるとホットリロードしたくなるのが人情というもの。
+  Denon というライブラリを使うとできるっぽい。https://deno.land/x/denon@2.4.1
+  コマンド一発叩いて、パス通しておわり。
+  ```sh
+  $ deno install -qAf --unstable https://deno.land/x/denon@2.4.0/denon.ts
+  ```
+  以後、`deno` コマンドの代わりに `denon` コマンドを使う。(わかりにくい！)
 
 # 参考
 
 - https://deno.land/
 - https://deno.land/manual <- これがガイドとしてよくできてる。
+- https://flaviocopes.com/deno/ <- 実践的にはこれ。
